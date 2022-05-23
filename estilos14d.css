@@ -1,0 +1,39 @@
+.texto {
+	position: absolute;
+	left: 20px;
+	top: 30px;	
+	color: #1dacc8;
+	font-weight:blond;
+	text-align:center;
+	font-size:6em;
+	z-index:-1;
+}
+
+figure img {
+	width:100px;
+	height:100px;
+}
+.contenedorgaleria{   
+	position: absolute;
+	left: 460px;
+	top: 20px;
+	margin: 0 auto;
+	border: #1dacc8 2px solid;
+}
+
+#oculta1, #oculta2, #oculta3, #oculta4, #oculta5, #oculta6, #oculta7, #oculta8,#oculta9,#oculta10,#oculta11,#oculta12,#oculta13,#oculta14,#oculta15,#oculta16,#oculta17,#oculta18 {
+	position: absolute;
+	left: -400px;
+	top: 20px;
+	width:400px;
+	height:400px;
+	visibility:hidden;
+}
+#peque1:hover, #peque2:hover, #peque3:hover , #peque4:hover , #peque5:hover , #peque6:hover , #peque7:hover , #peque8:hover , #peque9:hover , #peque10:hover , #peque11:hover , #peque12:hover , #peque13:hover , #peque14:hover , #peque15:hover , #peque16:hover , #peque17:hover , #peque18:hover {
+	opacity:.5;
+	border: 2px solid red;
+}
+.contenedorgaleria a#e1:hover #oculta1, .contenedorgaleria a#e2:hover #oculta2, .contenedorgaleria a#e3:hover #oculta3, 
+.contenedorgaleria a#e4:hover #oculta4, .contenedorgaleria a#e5:hover #oculta5, .contenedorgaleria a#e6:hover #oculta6, .contenedorgaleria a#e7:hover #oculta7, .contenedorgaleria a#e8:hover #oculta8, .contenedorgaleria a#e9:hover #oculta9, .contenedorgaleria a#e10:hover #oculta10, .contenedorgaleria a#e11:hover #oculta11, .contenedorgaleria a#e12:hover #oculta12, .contenedorgaleria a#e13:hover #oculta13, .contenedorgaleria a#e14:hover #oculta14, .contenedorgaleria a#e15:hover #oculta15, .contenedorgaleria a#e16:hover #oculta16, .contenedorgaleria a#e17:hover #oculta17, .contenedorgaleria a#e18:hover #oculta18{
+	visibility:visible;
+}
